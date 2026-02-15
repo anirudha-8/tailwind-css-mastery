@@ -1,10 +1,12 @@
 import "./App.css";
 import Header from "./components/Header";
+import FeaturePage from "./pages/FeaturePage.jsx";
 
 function App() {
 	return (
 		<div>
 			<Header />
+			<FeaturePage />
 		</div>
 	);
 }
