@@ -1,6 +1,6 @@
 import FeatureCard from "../components/FeatureCard";
 
-const Feature = () => {
+const FeaturePage = () => {
 	return (
 		<div className="p-4 grid sm:grid-cols-2 md:grid-cols-3 gap-8">
 			<FeatureCard featureName={"Feature One"} />
@@ -18,4 +18,4 @@ const Feature = () => {
 		</div>
 	);
 };
-export default Feature;
+export default FeaturePage;
